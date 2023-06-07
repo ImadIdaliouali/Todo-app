@@ -9,6 +9,8 @@ To get started with Todo-app, follow these steps:
 1. Clone the repository to your local machine using git clone https://github.com/ImadIdaliouali/Todo-app.git.
 1. Navigate to the project directory using cd Todo-app.
 1. Navigate to the backend folder using cd backend and install the dependencies by running npm install.
+1. Make sure that the .env file in the backend folder contains the following line, replacing "MONG_URI" with the connection string for your MongoDB Atlas cluster:
+   `MONGO_URI="MONG_URI"`
 1. Start the server by running npm run dev.
 1. In a new terminal window, navigate to the frontend folder using cd ../frontend and install the dependencies by running npm install.
 1. Start the client by running npm start.
